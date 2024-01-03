@@ -3,7 +3,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 box-sizing: border-box;
-transform: 0.5s;
+transition: 0.6s;
 cursor: pointer;
 
 &.btn-primary,
@@ -14,7 +14,8 @@ cursor: pointer;
 }
 
 
-&.btn-primary{
+&.btn-primary,
+&.btn-secondary{
   color: var(--secondary-010);
   background: var(--primary);
   &:hover{

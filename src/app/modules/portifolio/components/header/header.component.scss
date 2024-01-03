@@ -28,6 +28,12 @@
       color: var(--secondary);
 
     }
+
+    .description{
+      text-align: justify;
+      line-height: 1.5;
+
+    }
     nav ul, section{
       width: 100%;
       display: flex;
@@ -72,6 +78,7 @@
             flex-direction: column;
             p{
               margin: 3px 0;
+
             }
             strong{
               color: var(--primary);
